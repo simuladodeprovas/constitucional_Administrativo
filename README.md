@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>Direito Constitucional e Administrativo - 20 Questões</title>
+    <title>Direito Constitucional - 20 Questões</title>
     <style>
         * {
             margin: 0;
@@ -387,7 +387,7 @@
         const CONCURSO_LINK = "https://s.shopee.com.br/8pgTuA2wJ7";
         const RESULTADOS_LINK = CONCURSO_LINK;
 
-        // ===== 20 PERGUNTAS DE DIREITO CONSTITUCIONAL E ADMINISTRATIVO =====
+        // ===== 20 PERGUNTAS DE DIREITO CONSTITUCIONAL =====
         const questions = [
             // DIREITO CONSTITUCIONAL - Princípios Fundamentais (1-5)
             {
