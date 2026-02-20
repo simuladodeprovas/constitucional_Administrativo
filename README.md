@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>Direito Constitucional - 20 Questões</title>
+    <title>Direito Constitucional e Administrativo - 20 Questões</title>
     <style>
         * {
             margin: 0;
@@ -57,16 +57,18 @@
         
         .quiz-subtitle-line2 {
             color: #2c3e50;
-            font-size: 24px;
+            font-size: 18px; /* REDUZIDO de 24px para 18px */
             font-weight: 600;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             line-height: 1.3;
             margin-top: 5px;
             text-transform: uppercase;
             border-top: 2px solid #c0a86a;
             border-bottom: 2px solid #c0a86a;
             display: inline-block;
-            padding: 8px 20px;
+            padding: 6px 15px;
+            max-width: 100%;
+            word-wrap: break-word;
         }
         
         .progress-container {
@@ -352,7 +354,10 @@
         @media (max-width: 480px) {
             .quiz-title { font-size: 42px; }
             .quiz-subtitle-line1 { font-size: 24px; }
-            .quiz-subtitle-line2 { font-size: 20px; }
+            .quiz-subtitle-line2 { 
+                font-size: 16px; /* Ainda menor em telas pequenas */
+                padding: 5px 10px;
+            }
             .question-text { font-size: 20px; }
             .option-btn { font-size: 16px; padding: 15px; }
             .score-number { font-size: 70px; }
@@ -387,7 +392,7 @@
         const CONCURSO_LINK = "https://s.shopee.com.br/8pgTuA2wJ7";
         const RESULTADOS_LINK = CONCURSO_LINK;
 
-        // ===== 20 PERGUNTAS DE DIREITO CONSTITUCIONAL =====
+        // ===== 20 PERGUNTAS DE DIREITO CONSTITUCIONAL E ADMINISTRATIVO =====
         const questions = [
             // DIREITO CONSTITUCIONAL - Princípios Fundamentais (1-5)
             {
@@ -690,7 +695,7 @@
                 <div class="quiz-header">
                     <div class="quiz-title">⚖️</div>
                     <div class="quiz-subtitle-line1">DIREITO</div>
-                    <div class="quiz-subtitle-line2">(CONSTITUCIONAL)</div>
+                    <div class="quiz-subtitle-line2">(CONSTITUCIONAL/ADMINISTRATIVO)</div>
                     
                     <div class="progress-container">
                         <div class="question-counter">${current + 1}/${TOTAL_QUESTIONS}</div>
@@ -802,7 +807,7 @@
                 <div class="quiz-header">
                     <div class="quiz-title">⚖️</div>
                     <div class="quiz-subtitle-line1">DIREITO</div>
-                    <div class="quiz-subtitle-line2">(CONSTITUCIONAL)</div>
+                    <div class="quiz-subtitle-line2">(CONSTITUCIONAL/ADMINISTRATIVO)</div>
                 </div>
                 
                 <div class="result-screen">
