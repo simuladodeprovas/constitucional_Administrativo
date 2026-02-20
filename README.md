@@ -690,7 +690,7 @@
                 <div class="quiz-header">
                     <div class="quiz-title">⚖️</div>
                     <div class="quiz-subtitle-line1">DIREITO</div>
-                    <div class="quiz-subtitle-line2">(CONSTITUCIONAL/ADMINISTRATIVO)</div>
+                    <div class="quiz-subtitle-line2">(CONSTITUCIONAL)</div>
                     
                     <div class="progress-container">
                         <div class="question-counter">${current + 1}/${TOTAL_QUESTIONS}</div>
